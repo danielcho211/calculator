@@ -20,6 +20,21 @@ body {
     height: 150px;
     background-color: white;
     border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.leftDisplay {
+    padding: 15px;
+    padding-bottom: 5px;
+    font-size: 36px;
+}
+
+.rightDisplay {
+    padding: 15px;
+    padding-bottom: 5px;
+    font-size: 40px;
 }
 
 .buttons {
